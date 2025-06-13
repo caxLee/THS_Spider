@@ -35,7 +35,7 @@ jobs:
           PYTHONUTF8: 1
         run: |
           chcp 65001
-          uv run python THSspider_LKX/DataToSeatable.py
+          uv run DataToSeatable.py
           
       - name: Handle errors
         if: failure()
