@@ -1,14 +1,4 @@
-### Example user template template
-### Example user template
-
-# IntelliJ project files
-.idea
-*.iml
-out
-gen
-!/xxx.http
-!/cookies1.json
-!/User_Data/
-!/cookies.json
-!/.env
-!/cookies.json
+.env
+*.env
+__pycache__/
+*.pyc
