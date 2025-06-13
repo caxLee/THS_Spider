@@ -1,0 +1,13 @@
+[project]
+name = "ths-spider"
+version = "0.1.0"
+description = "THS Spider for data collection"
+dependencies = [
+    "playwright",
+    "seatable-api",
+    "python-dotenv"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
