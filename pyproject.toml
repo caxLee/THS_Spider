@@ -1,12 +1,16 @@
-[project]
-name = "THSspider_LKX"
+[tool.poetry]
+name = "DataToSeatable"
 version = "0.1.0"
-description = "THS Spider for data collection"
-dependencies = [    
-    "seatable-api",  
-    "python-dotenv"  
-]
+description = ""
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pychrome = "^0.2.4"
+seatable-api = "^3.0.0"
+dotenv = "^0.9.9"
+playwright = "1.50.0"
 
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
