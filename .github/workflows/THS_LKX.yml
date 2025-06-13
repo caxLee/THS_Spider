@@ -24,7 +24,9 @@ jobs:
       - name: Install deps
         run: |
           uv sync
-          playwright install chromium
+          
+      - name: Install
+        run:  playwright install chromium
           
       - name: Run THS Spider
         env:
