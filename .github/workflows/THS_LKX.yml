@@ -23,7 +23,6 @@ jobs:
 
       - name: Install deps
         run: |
-          pip install playwright
           uv sync
           playwright install chromium
           
