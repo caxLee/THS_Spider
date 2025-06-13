@@ -1,3 +1,4 @@
+
 name: THS Spider Runner
 on:
   workflow_dispatch:    
@@ -22,6 +23,7 @@ jobs:
 
       - name: Install deps
         run: |
+          pip install playwright
           uv sync
           playwright install chromium
           
