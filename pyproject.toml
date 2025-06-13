@@ -1,5 +1,5 @@
 [project]
-name = "THSspider_LKX"
+name = "DataToSeatable"
 version = "0.1.0"
 description = "THS Spider for data collection"
 dependencies = [    
