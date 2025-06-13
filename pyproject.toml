@@ -1,11 +1,11 @@
 [project]
-name = "Run THS Spider"
+name = "THS_Spider"
 version = "0.1.0"
 description = "THS Spider for data collection"
 dependencies = [
-    "playwright==2.9.3",    
-    "seatable-api==0.9.1",  
-    "python-dotenv==0.19.0"  
+    "playwright",    
+    "seatable-api",  
+    "python-dotenv"  
 ]
 
 [build-system]
