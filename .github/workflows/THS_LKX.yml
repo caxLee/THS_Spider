@@ -24,9 +24,8 @@ jobs:
       - name: Install deps
         run: |
           uv sync
-          
-      - name: Install
-        run:  playwright install chromium
+          pip install playwright #playwright塞uv里装不上，不知道为啥
+          playwright install chromium
           
       - name: Run THS Spider
         env:
